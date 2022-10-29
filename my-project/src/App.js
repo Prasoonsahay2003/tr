@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Body from "./src/components/Body.jsx";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+   <div>
+
+    <Body  />
+   </div>
 
   );
 }
 
-export default App;
+
+export default Body;
