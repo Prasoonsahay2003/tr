@@ -1,14 +1,15 @@
-import Body from "./src/components/Body.jsx";
-
+import Body from './components/Body.jsx';
+import Header from './components/Header.jsx';
 function App() {
   return (
    <div>
 
-    <Body  />
+   <Body />    
+    <Header />
+    <Footer />
    </div>
 
   );
 }
 
-
-export default Body;
+export default function Body()
